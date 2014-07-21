@@ -361,7 +361,7 @@ sudo virt-install --connect=qemu:///system \
     --name=$domname \
     --location=$INSTALLURL \
     --disk $image,format=qcow2 \
-    --ram 7000 \
+    --ram 3072 \
     --vcpus 3 \
     --cpu host \
     --hvm \
